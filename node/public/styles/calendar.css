@@ -1,0 +1,160 @@
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 575px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+
+.date-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+h1 {
+    padding: 0;
+    padding-bottom: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+th {
+    height: 3rem;
+    width: 16.6% !important;
+    text-align: center;
+    border: transparent solid 1px;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+.table-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #202124;
+    border-radius: 4px;
+}
+
+td {
+    height: 10rem;
+    width: 16.6%;
+    border: transparent solid 2px;
+}
+
+.filler {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #202124;
+    border-radius: 4px;
+}
+
+.day-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #202124;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+}
+
+.day-wrapper:hover {
+    background-color: #404040;
+}
+
+.post {
+    font-weight: 100;
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.day {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .post {
+        font-size: 10px;
+    }
+}
+    
+.current-day {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.mask {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.modal {
+    display: block;
+    justify-content: center;
+    background-color: #404040;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}

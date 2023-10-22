@@ -1,0 +1,12 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 06 16:41:02.477964 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 OpenSSL/1.1.1n configured -- resuming normal operations
+[Fri Oct 06 16:41:02.478146 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 06 16:42:07.308960 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Oct 06 16:42:08.893259 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Fri Oct 06 16:42:08.893464 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 06 16:48:02.059247 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 06 16:48:03.730691 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.33 configured -- resuming normal operations
+[Fri Oct 06 16:48:03.730752 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 07 15:32:30.209415 2023] [php7:error] [pid 19] [client 172.31.0.2:37690] script '/var/www/html/acquaportal.com.br/xmlrpc.php' not found or unable to stat
+[Sun Oct 22 17:20:55.626868 2023] [php7:error] [pid 19] [client 172.31.0.2:37960] script '/var/www/html/acquaportal.com.br/wp-login.php' not found or unable to stat, referer: http://acquaportal.com.br/wp-login.php

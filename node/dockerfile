@@ -1,0 +1,9 @@
+FROM node:latest
+
+COPY . /var/www/html
+WORKDIR /var/www/html
+
+RUN npm install
+RUN npm install nodemon -g
+
+CMD ["npm","run", "start"]
